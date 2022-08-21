@@ -8,7 +8,12 @@
     "plugin:import/warnings",
     "plugin:tailwind/recommended"
   ],
-  "plugins": ["@typescript-eslint", "sort-destructure-keys", "react", "react-hooks"],
+  "plugins": [
+    "@typescript-eslint",
+    "sort-destructure-keys",
+    "react",
+    "react-hooks"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "sourceType": "module",
@@ -23,13 +28,6 @@
   },
   "rules": {
     "@typescript-eslint/adjacent-overload-signatures": "error",
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "semi": false
-      }
-    ],
     "react/prop-types": "off",
     "no-use-before-define": "off",
     "import/first": "off",
